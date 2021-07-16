@@ -6,6 +6,10 @@
 
 A brief description of what this project does and who it's for
 
+## Project References
+
+- [Hue API](https://developers.meethue.com/develop/hue-api/)
+
 ## Tech Stack
 
 **Client:** React, Javascript, HTML, CSS, Google Fonts, Webpack, Babel, ESlint, Jest
@@ -36,19 +40,11 @@ Start the server
   npm run start
 ```
 
-## Project Reference
-
-- [@BasicJohn](https://www.github.com/basicjohn)
-
 ## Diagram
 
 ![React Project Diagram](diagram.png)
 
 ## Authors
-
-- [@BasicJohn](https://www.github.com/basicjohn)
-
-## Project Reference
 
 - [@BasicJohn](https://www.github.com/basicjohn)
 
