@@ -7,3 +7,6 @@ Got a 200 OK response from the bring and continueing to work along with the live
 2:23pm
 Created a connect with my Hue bridge and able to create a user name through the api.  Next attempting to turn the lights on and off.
 
+2:57pm
+Created a GET route for all lights and a single light.  Next learning how to toggle the light.
+
