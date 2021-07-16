@@ -31,6 +31,7 @@ A well-designed app to provide a user with the ability to get an event notificat
 
 ## Project References
 
+- [Hue Get Started Guide](https://developers.meethue.com/develop/get-started-2/)
 - [Hue API](https://developers.meethue.com/develop/hue-api/)
 
   ## Tech Stacks
@@ -74,3 +75,4 @@ Start the server
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
