@@ -15,3 +15,25 @@ Can toggle a selected light now. next learning how to change the colors
 
 3:26pm
 Setup a PUT request to change the settings of a particular light.
+
+4:32pm
+Starting with the open weather api to practice using a second api with the hue Hub
+
+EOD round up
+
+Things I still need to research
+Google OAUTH 2.0
+Connecting to the Hue Hub remotely because currently it's on the local network.
+Integrating it with the google calendar api (I need to research this for a little bit because it might be easier to integrate it now versus later)
+
+
+New Ideas for functionality
+I was thinking about how to make the notifications noticable but also not distracting.
+The main goal is so that it is not distracting to your mind but still conveys some sort of information. Having the lights perform at predictable times allows the user to get information fast and cast it out just as fast if it's not useful.
+A few solutions that I came up with.
+  - having a base on the top of the hour fluctuation/notification for the light. I'm thinking "dun dunnnn dunnnnnnnn" in light form.  Then it would flash a couple light category colors after that. 
+  - Having the lights be set to a work day mode.  It gives you a notification at 3 points in the day (start, lunch annd end of the workday) and possibly two more points at set break times.
+  
+  
+  Other app or expanded features for the app
+  - pomodoro timer feature. Set the working block time and the breaking block time.  The light is a default color during the working block time and then during the break time it will start at one color and transition to another that way the person can tell how much time is left in the break.
