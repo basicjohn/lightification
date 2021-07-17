@@ -1,22 +1,22 @@
 Friday July 16
 
-1:54pm
+timelog_entry_7-16-21_1:54pm
 Created a time log for tracking what I'm working on as I build out the project. Watching a Postman livestream as they setup a connection with the philips Hue Bridge and explore the Hue api.
 Got a 200 OK response from the bring and continueing to work along with the live stream.
 
-2:23pm
+timelog_entry_7-16-21_2:23pm
 Created a connect with my Hue bridge and able to create a user name through the api.  Next attempting to turn the lights on and off.
 
-2:57pm
+timelog_entry_7-16-21_2:57pm
 Created a PUT request for all lights and a single light.  Next learning how to toggle the light.
 
-3:11pm
+timelog_entry_7-16-21_3:11pm
 Can toggle a selected light now. next learning how to change the colors
 
-3:26pm
+timelog_entry_7-16-21_3:26pm
 Setup a PUT request to change the settings of a particular light.
 
-4:32pm
+timelog_entry_7-16-21_4:32pm
 Starting with the open weather api to practice using a second api with the hue Hub
 
 EOD round up
@@ -43,10 +43,16 @@ A few solutions that I came up with.
 
 Saturday July 17
 
-11:11am 
+timelog_entry_7-17-21_11:11am 
 Getting started for the day
 
-12:34pm
+timelog_entry_7-17-21_12:34pm
 Working on a couple different tutorials right now.
 I'm finishing up the tutorial from yesterday which integrates weather with the Hue api. 
 I'm also working to get OAUTH 2 working in Postman with the Hue api so the app can be configured remotely.
+
+timelog_entry_7-17-21_12:55pm
+Ran into an issue where the postman callback URL I had was a deprecated url.  I found the current one and now back on track
+
+timelog_entry_7-17-21_2:25pm
+my temp token keeps timing out before I can complete the OAUTH process.  working to get it completed still
