@@ -46,4 +46,7 @@ Saturday July 17
 11:11am 
 Getting started for the day
 
-12:04pm
+12:34pm
+Working on a couple different tutorials right now.
+I'm finishing up the tutorial from yesterday which integrates weather with the Hue api. 
+I'm also working to get OAUTH 2 working in Postman with the Hue api so the app can be configured remotely.
