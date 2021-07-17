@@ -56,3 +56,6 @@ Ran into an issue where the postman callback URL I had was a deprecated url.  I 
 
 timelog_entry_7-17-21_2:25pm
 my temp token keeps timing out before I can complete the OAUTH process.  working to get it completed still
+
+timelog_entry_7-17-21_2:25pm
+Got the basic OAUTH2 setup.  Working to get a more secure version setup using Nonce.  I should have that finished here shortly.
