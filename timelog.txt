@@ -37,3 +37,9 @@ A few solutions that I came up with.
   
   Other app or expanded features for the app
   - pomodoro timer feature. Set the working block time and the breaking block time.  The light is a default color during the working block time and then during the break time it will start at one color and transition to another that way the person can tell how much time is left in the break.
+
+
+========================================================================================
+
+Saturday July 17
+
