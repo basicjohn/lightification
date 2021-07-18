@@ -65,3 +65,7 @@ Got the basic OAUTH2 setup.  Working to get a more secure version setup using No
 ========================================================================================
 
 Sunday July 18
+
+
+timelog_entry_7-18-21_10:47am
+Getting started for the day. Back to working on the Nonce authentication
