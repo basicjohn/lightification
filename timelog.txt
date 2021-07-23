@@ -69,3 +69,7 @@ Sunday July 18
 
 timelog_entry_7-18-21_10:47am
 Getting started for the day. Back to working on the Nonce authentication
+
+
+timelog_entry_7-18-21_11:11am
+Getting setup with controlling the lights remotely now.
