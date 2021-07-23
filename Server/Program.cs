@@ -34,7 +34,7 @@ namespace Server
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
-                .UseS
+                .UseStartup<Startup>();
                 // .ConfigureWebHostDefaults(webBuilder =>
                 // {
                 //     webBuilder.UseStartup<Startup>();
