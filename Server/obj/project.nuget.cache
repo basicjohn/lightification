@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "AvX4ZVZfeSeQg31j7hiozQb4/ACg7swJCv0udwg1qIF9ypxqibb2GGnohi2i0SZJ5ccRuSmgMOTVfNAeXh7fuA==",
+  "success": true,
+  "projectFilePath": "/Users/john/Documents/GitHub/Lightification.Solution/Server/Server.csproj",
+  "expectedPackageFiles": [
+    "/Users/john/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/john/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/john/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "/Users/john/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "/Users/john/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "/Users/john/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
