@@ -24,16 +24,20 @@ namespace Server
             JObject o = JObject.Parse(json);
             AppSettings.appSettings = JsonConvert.DeserializeObject<AppSettings>(o["AppSettings"].ToString());
 
-            //Helpers.SimpleLogger
+            //Helpers.SimpleLogger.Log(Models.AppSettings.appSettings.JwtSecret);
 
             CreateHostBuilder(args).Build().Run();
         }
 
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder.UseStartup<Startup>();
-                });
+        public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
+            WebHost.CreateDefaultBuilder(args)
+                .UseKestrel()
+                .UseContentRoot(Directory.GetCurrentDirectory())
+                .UseIISIntegration()
+                .UseS
+                // .ConfigureWebHostDefaults(webBuilder =>
+                // {
+                //     webBuilder.UseStartup<Startup>();
+                // });
     }
 }
