@@ -1,11 +1,16 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Serilog;
+using Server.Models;
+using Newtonsoft.Json.Linq;
+using Newtonsoft.Json;
 
 namespace Server
 {
@@ -15,18 +20,18 @@ namespace Server
         {
             Log.Logger = new LoggerConfiguration()
                 .MinimumLevel.Debug()
-                WriteTo.Console()
+                .WriteTo.Console()
                 .CreateLogger();
 
             Helpers.SimpleLogger.Log("Starting Service");
 
-            string json = File.ReadAllText("appsettings.json");
-            JObject o = JObject.Parse(json);
+            string json = File.ReadAllText(@"appsettings.json");
+            JObject o = JObject.Parse(@json);
             AppSettings.appSettings = JsonConvert.DeserializeObject<AppSettings>(o["AppSettings"].ToString());
 
-            //Helpers.SimpleLogger.Log(Models.AppSettings.appSettings.JwtSecret);
+            Helpers.SimpleLogger.Log(Models.AppSettings.appSettings.GoogleClientId);
 
-            CreateHostBuilder(args).Build().Run();
+            CreateWebHostBuilder(args).Build().Run();
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
@@ -35,9 +40,5 @@ namespace Server
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
                 .UseStartup<Startup>();
-                // .ConfigureWebHostDefaults(webBuilder =>
-                // {
-                //     webBuilder.UseStartup<Startup>();
-                // });
     }
 }

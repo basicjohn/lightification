@@ -1,0 +1,7 @@
+/Users/john/Documents/GitHub/Lightification.Solution/Server/obj/Debug/net5.0/Server.csprojAssemblyReference.cache
+/Users/john/Documents/GitHub/Lightification.Solution/Server/obj/Debug/net5.0/Server.GeneratedMSBuildEditorConfig.editorconfig
+/Users/john/Documents/GitHub/Lightification.Solution/Server/obj/Debug/net5.0/Server.AssemblyInfoInputs.cache
+/Users/john/Documents/GitHub/Lightification.Solution/Server/obj/Debug/net5.0/Server.AssemblyInfo.cs
+/Users/john/Documents/GitHub/Lightification.Solution/Server/obj/Debug/net5.0/Server.csproj.CoreCompileInputs.cache
+/Users/john/Documents/GitHub/Lightification.Solution/Server/obj/Debug/net5.0/Server.MvcApplicationPartsAssemblyInfo.cs
+/Users/john/Documents/GitHub/Lightification.Solution/Server/obj/Debug/net5.0/Server.MvcApplicationPartsAssemblyInfo.cache
