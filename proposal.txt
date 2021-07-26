@@ -1,0 +1,45 @@
+Name of Student
+  John Edmondson
+
+Name of Project
+  Hue Lights Calendar Notification app
+
+Project's Purpose or Goal
+  A well-designed app to provide a user with the ability to get an event notification in a minimally obtrusive way by subtly changing the light's output.
+
+List the absolute minimum features the project requires to meet this purpose or goal:
+  A beautifully styled site that has a straightforward user experience.
+  User authentication
+  Connect your Phillips hue account to the app
+  Create a scheduled in app event to send a notification to the user's light.
+
+What tools, frameworks, libraries, APIs, modules, and/or other resources (whatever is specific to your track, and your language) will you use to create this MVP? List them all here. Be specific.
+  Javascript
+  HTML
+  CSS
+  React
+  Firebase
+  Philips Hue API
+
+If you finish developing the minimum viable product (MVP) with time to spare, what will you work on next? Describe these features here: Be specific.
+  Connect the service to a consistently updated notification source
+    Connect the app to an RSS feed API to notify the user whenever a feed is updated.  There are some API's that allow you to create an RSS feed on just about any URL type (ie. youtube channel, twitter profile, twitter hashtag, podcast feed, blog page, social comments)
+    Connect the app to Google Calendar (which can be integrated into just about any other calendar app) that would then can be set in the app to a particular event type.  Then your interaction with app would be less and integrated into your normal workflow of scheduling.
+  Create multiple preset options for the light notifications. 
+    First Priority: Adjust the brightness from low to high to then in 5s, 10s, 30s, 1m loops.
+  Handle multiple notifications types. 
+    If it's a color bulb then cycle through multiple colors slowly with each color corresponding to each type.
+    If is it's only a white bulb then have some sort of flash system
+    If the user has multiple bulbs then the user can assign different notification types to individual bulbs 
+  option to assign notifications to all bulbs
+  BIO / FAQ / Help section
+    Mission Statement
+    Examples of different types of sites you can link into the notification service.
+    Give tutorials on how to connect 3rd party services to your google calendar
+
+What additional tools, frameworks, libraries, APIs, or other resources will these additional features require?
+  Google Calendar API
+  RSS feed API
+
+Is there anything else you'd like your instructor to know?
+  I'm a little unsure as to what is feasible so I pulled back a bit on the MVP but my goal currently is to shoot for getting the google calendar working and having at least a couple presets for changing the lights notification settings.
