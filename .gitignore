@@ -24,3 +24,5 @@ yarn-error.log*
 
 # sensitive documentation
 hubDocumentation.txt
+
+appsettings.json
