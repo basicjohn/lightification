@@ -33,6 +33,8 @@ A well-designed app to provide a user with the ability to get an event notificat
 
 - [Hue Get Started Guide](https://developers.meethue.com/develop/get-started-2/)
 - [Hue API](https://developers.meethue.com/develop/hue-api/)
+- [Hue Hacking by bjohnso5](https://github.com/bjohnso5/hue-hacking)
+- [React and Google OAuth with .NET Core backend by Atul Shukla](https://medium.com/mickeysden/react-and-google-oauth-with-net-core-backend-4faaba25ead0)
 
   ## Tech Stacks
 
