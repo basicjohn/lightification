@@ -64,7 +64,56 @@ namespace Server.Controllers
             }
             return BadRequest();
         }
+        [AllowAnonymous]
+        [HttpPost("hue")]
+        public async Task<IActionResult> Hue([FromBody]UserView userView)
+        {
+
+            string appId = AppSettings.appSettings.HueAppId; //q42-hueapi-test
+            string clientId = AppSettings.appSettings.HueClientId;
+            string clientSecret = AppSettings.appSettings.HueClientSecret;
+            IRemoteAuthenticationClient authClient = new RemoteAuthenticationClient(clientId, clientSecret, appId);
+
+            //If you already have an accessToken, call:
+            //AccessTokenResponse storedAccessToken = SomehwereFrom.Storage();
+            //authClient.Initialize(storedAccessToken);
+            //IRemoteHueClient client = new RemoteHueClient(authClient.GetValidToken);
+
+            //Else, reinitialize:
+
+            var authorizeUri = authClient.BuildAuthorizeUri("sample", "consoleapp");
+
+            var webAuthenticationResult = await WebAuthenticationBroker.AuthenticateAsync(WebAuthenticationOptions.None, authorizeUri, callbackUri);
+
+            if (webAuthenticationResult != null)
+            {
+                var result = authClient.ProcessAuthorizeResponse(webAuthenticationResult.ResponseData);
+
+                if (!string.IsNullOrEmpty(result.Code))
+                {
+                //You can store the accessToken for later use
+                var accessToken = await authClient.GetToken(result.Code);
+
+                IRemoteHueClient client = new RemoteHueClient(authClient.GetValidToken);
+                var bridges = await client.GetBridgesAsync();
+
+                    if (bridges != null)
+                    {
+                        //Register app
+                        //var key = await client.RegisterAsync(bridges.First().Id, "Sample App");
+
+                        //Or initialize with saved key:
+                        client.Initialize(bridges.First().Id, "C95sK6Cchq2LfbkbVkfpRKSBlns2CylN-VxxDD8F");
+
+                        //Turn all lights on
+                        var lightResult = await client.SendCommandAsync(new LightCommand().TurnOn());
+
+                    }
+                }
+            }
+        }
     }
+
 }
 
 /*SimpleLogger.Log(payload.Name);

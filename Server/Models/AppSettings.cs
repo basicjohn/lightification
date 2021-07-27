@@ -7,5 +7,8 @@ namespace Server.Models
         public string GoogleClientId  {get; set;}
         public string GoogleClientSecret  {get; set;}
         public string JwtEmailEncryption {get; set;}
+        public string HueAppId {get; set;}
+        public string HueClientId {get; set;}
+        public string HueClientSecret {get; set;}
     }
 }
