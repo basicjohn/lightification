@@ -17,7 +17,7 @@ using System.Text;
 namespace Server.Controllers
 {
     [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
-    [Route("api/[controller]")]
+    [Route("v1/[controller]")]
     public class AuthController : Controller
     {
         private IAuthService _authService;
