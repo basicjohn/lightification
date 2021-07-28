@@ -29,12 +29,15 @@ A well-designed app to provide a user with the ability to get an event notificat
   - Examples of different types of sites you can link into the notification service.
   - Give tutorials on how to connect 3rd party services to your google calendar.
 
-## Project References
+## Project Reference & Resources
 
 - [Hue Get Started Guide](https://developers.meethue.com/develop/get-started-2/)
 - [Hue API](https://developers.meethue.com/develop/hue-api/)
 - [Hue Hacking by Bryan Johnson](https://github.com/bjohnso5/hue-hacking)
 - [React and Google OAuth with .NET Core backend by Atul Shukla](https://medium.com/mickeysden/react-and-google-oauth-with-net-core-backend-4faaba25ead0)
+
+- [Images from Unsplash]()
+  - [React and Google OAuth with .NET Core backend by Atul Shukla](https://medium.com/mickeysden/react-and-google-oauth-with-net-core-backend-4faaba25ead0)
 
   ## Tech Stacks
 
