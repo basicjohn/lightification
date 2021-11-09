@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kPaE/B6GGEJfClLW9CoYtwnHcvaerqkRrtaRCvrKXWEV4EH2TZCIjBkdjY02wY5EPn5RTUE5u5qvvlvdDnfWJw==",
+  "dgSpecHash": "UPPzSyu5AwIBkKCutF2aGEpP+r9cpaa0eLAC3joh3/ISMNtlgiL4mm6mu4AXGcuylsh0oLQNAb4lTWJM1qVXtg==",
   "success": true,
   "projectFilePath": "/Users/john/Documents/GitHub/Lightification.Solution/Server/Server.csproj",
   "expectedPackageFiles": [
@@ -24,7 +24,8 @@
     "/Users/john/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
     "/Users/john/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
     "/Users/john/.nuget/packages/system.identitymodel.tokens.jwt/6.7.1/system.identitymodel.tokens.jwt.6.7.1.nupkg.sha512",
-    "/Users/john/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512"
+    "/Users/john/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512",
+    "/Users/john/.nuget/packages/microsoft.netcore.app.host.osx-x64/5.0.8/microsoft.netcore.app.host.osx-x64.5.0.8.nupkg.sha512"
   ],
   "logs": []
 }
