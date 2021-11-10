@@ -4,7 +4,7 @@
 
 ### Epicodus Capstone Project for the March 2021 Co-hort
 
-A well-designed app to provide a user with the ability to get an event notification in a minimally obtrusive way by subtly changing the light's output.
+An app to provide a user with the ability to get event notifications in a minimally obtrusive way by changing the user's Hue bulbs color and brightness.
 
 ## MVP Features
 
@@ -69,9 +69,9 @@ Start the server
   npm run start
 ```
 
-## Diagram
+<!-- ## Diagram
 
-![React Project Diagram](diagram.png)
+![React Project Diagram](diagram.png) -->
 
 ## Author
 
