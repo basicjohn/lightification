@@ -36,7 +36,6 @@
 /Users/john/Documents/GitHub/Lightification.Solution/Server/obj/Debug/net5.0/ref/Server.dll
 /Users/john/Documents/GitHub/Lightification.Solution/Server/obj/Debug/net5.0/Server.pdb
 /Users/john/Documents/GitHub/Lightification.Solution/Server/obj/Debug/net5.0/Server.genruntimeconfig.cache
-/Users/john/Documents/GitHub/Lightification.Solution/Server/bin/Debug/net5.0/Server.StaticWebAssets.xml
 /Users/john/Documents/GitHub/Lightification.Solution/Server/bin/Debug/net5.0/Server
 /Users/john/Documents/GitHub/Lightification.Solution/Server/obj/Debug/net5.0/Server.csproj.AssemblyReference.cache
 /Users/john/Documents/GitHub/Lightification.Solution/Server/obj/Debug/net5.0/refint/Server.dll
